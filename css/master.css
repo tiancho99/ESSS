@@ -1,6 +1,38 @@
-#footer{
-    background-color: #e4a900;
+@@font-face {
+    font-family: Castellar;
+    src: url("fonts/Castellar.ttf");
 }
-#footer a{
+
+#header img {
+    width: 80px;
+}
+
+#footer {
+    font-weight: 500;
+    background: rgba(32,64,81,1);
+    background: -moz-linear-gradient(left, rgba(32,64,81,1) 0%, rgba(59,105,120,1) 60%, rgba(53,158,166,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(32,64,81,1)), color-stop(60%, rgba(59,105,120,1)), color-stop(100%, rgba(53,158,166,1)));
+    background: -webkit-linear-gradient(left, rgba(32,64,81,1) 0%, rgba(59,105,120,1) 60%, rgba(53,158,166,1) 100%);
+    background: -o-linear-gradient(left, rgba(32,64,81,1) 0%, rgba(59,105,120,1) 60%, rgba(53,158,166,1) 100%);
+    background: -ms-linear-gradient(left, rgba(32,64,81,1) 0%, rgba(59,105,120,1) 60%, rgba(53,158,166,1) 100%);
+    background: linear-gradient(to right, rgba(32,64,81,1) 0%, rgba(59,105,120,1) 60%, rgba(53,158,166,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#204051', endColorstr='#359ea6', GradientType=1 );
+}
+
+#footer a {
     color: black;
+}
+
+#logo_header {
+    font-family: Castellar;
+    font-size: 4em;
+    font-weight: 250;
+}
+
+#danger {
+    color: red;
+}
+
+.esss {
+    a
 }
